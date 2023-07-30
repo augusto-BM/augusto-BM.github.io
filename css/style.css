@@ -75,6 +75,10 @@ section{
     font-size: 3.6rem;
     color: var(--text-color);
     display: none;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    right: 5px;
 }
 
 /* ==================================== INICIO ==================================== */
@@ -322,6 +326,7 @@ span{
 .portafolio-layer p{
     font-size: 1.2rem;
     margin: 1rem 0 1rem;
+    text-align: justify;
 }
 .portafolio-layer a{
     display: inline-flex;
@@ -425,9 +430,9 @@ span{
 }
 
 @media (max-width: 991px){
-    .header{
+    header{
 /*         padding: 2rem 3%;
- */    }
+ */   }
     section{
         padding: 10rem 3% 2rem;
     }
@@ -448,6 +453,7 @@ span{
 @media (max-width: 768px){
     #menu-icon{
         display: block;
+
     }
     .navbar{
         position: absolute;
