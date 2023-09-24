@@ -34,7 +34,7 @@ window.onscroll = () =>{
     navbar.classList.remove('active');
 };
 
-    /* ============================= scroll reveal ============================ */
+/* ============================= scroll reveal ============================ */
     ScrollReveal({ 
         reset: true,
         distance: '80px',
@@ -47,7 +47,7 @@ window.onscroll = () =>{
     ScrollReveal().reveal('.home-content h1, .about-img', {origin: 'left'});
     ScrollReveal().reveal('.home-content p, .about-content', {origin: 'right'});
 
-        /* ============================= Typed Js ============================ */
+/* ============================= Typed Js ============================ */
     const typed = new Typed('.multiple-text',{
         strings: ['estudiante de Ingenieria de software. ','tecnico en Electronica Industrial.'],
         typeSpeed: 30,

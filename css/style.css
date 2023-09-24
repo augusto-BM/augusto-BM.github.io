@@ -130,7 +130,6 @@ span{
 .home-content p{
     font-size: 1.4rem;
     margin-right: 100px;
-    text-align: justify;
     letter-spacing: .2rem;
 
 }
@@ -215,7 +214,6 @@ span{
 .about-content p{
     font-size: 1.4rem;
     margin: 2rem 0 3rem;
-    text-align: justify;
     letter-spacing: .2rem;
 }
 
@@ -236,6 +234,7 @@ span{
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
+    margin-bottom: 100px;
 }
 
 .services-container .services-box{
@@ -270,6 +269,7 @@ span{
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PORTAFOLIO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 .portafolio{
     background: var(--second-bg-color);
+    padding-bottom: 180px;
 }
 .portafolio h2{
     margin-bottom: 4rem;
